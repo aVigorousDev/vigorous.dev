@@ -10,6 +10,7 @@ html {
 body {
   align-items: center;
   background-color: #fff;
+  color: #7b7c76;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -23,27 +24,31 @@ a, a:hover, a:active, a:focus, a:visited {
 }
 
 .title {
+  color: #000;
   font-size: 2em;
   letter-spacing: 0.0625em;
+  margin: 0.75em 0;
 }
 
 .tagline {
-  color: #7b7c76;
   font-size: 1.25em;
   font-weight: 300;
   letter-spacing: 0.125em;
+  line-height: 1.25em;
+  margin: 0.75em 0;
 }
 
 .tags {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .social-icon {
-  height: 1.5em;
-  margin: 0 0.5em;
-  width: 1.5em;
+  fill: #7b7c76;
+  height: 1em;
+  margin: 0 0.375em;
+  vertical-align: middle;
+  width: 1em;
 }
 
 @media (min-width: 50em) {
@@ -52,7 +57,7 @@ a, a:hover, a:active, a:focus, a:visited {
   }
 
   .tagline {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
 
   .tags {
@@ -60,6 +65,6 @@ a, a:hover, a:active, a:focus, a:visited {
   }
 
   .tag {
-    margin: 0 0.5em;
+    margin: 0 0.375em;
   }
 }
